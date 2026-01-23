@@ -1,0 +1,57 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+
+# Testing
+/coverage
+
+# Production
+/dist
+/build
+
+# Misc
+.DS_Store
+.env
+.env.local
+.env.*.local
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE
+*.swp
+*.swo
+*~
+.vscode-test
+.vscode/launch.json
+.vscode/extensions.json
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Local Netlify folder
+.netlify
+
+# Vercel
+.vercel
+
+# Package manager lockfiles (optional, uncomment if you want to share them)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
