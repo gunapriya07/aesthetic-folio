@@ -163,14 +163,6 @@ Student at Kalvium with expertise in:
   - 4 major open source projects
   - Community-focused development
 
-## License
-
-This project is open source and available under the MIT License.
-
-## Contributing
-
-Contributions are welcome! If you find any issues or have suggestions, please open an issue or submit a pull request.
-
 ---
 
 **Made with care by Guna Priya**
