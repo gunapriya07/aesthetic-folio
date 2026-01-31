@@ -1,4 +1,4 @@
-# Guna Priya - Aesthetic Portfolio
+# Aesthetic Portfolio
 
 A modern, aesthetic portfolio website built with React and Vite, showcasing the work and skills of Kommara Gunta Guna Priya - a passionate Full Stack Developer.
 
