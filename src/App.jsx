@@ -40,7 +40,8 @@ export default function App() {
       <nav className="navbar">
         <div className="nav-container">
           <div className="logo">
-            <span className="logo-icon">GK</span>
+            <span className="logo-icon" title="Guna Priya">💼</span>
+            <span className="logo-text">Guna Priya <span className="logo-divider">|</span> <span className="logo-role">Full Stack Developer</span></span>
           </div>
           <ul className="nav-menu">
             <li><a onClick={() => scrollToSection('home')}>Home</a></li>
@@ -132,6 +133,28 @@ export default function App() {
         <h3 className="section-subtitle">Professional <span className="highlight">Journey</span></h3>
         
         <div className="timeline">
+                    <div className="timeline-item" data-animate>
+                      <div className="timeline-marker"></div>
+                      <div className="timeline-content">
+                        <div className="timeline-header">
+                          <h4>3rd Place - AWS/Docker Hackathon</h4>
+                          <span className="timeline-date">2026</span>
+                        </div>
+                        <p className="timeline-company">GIR Technology Company Hackathon</p>
+                        <ul className="timeline-details">
+                          <li>Won 3rd place for identifying and fixing security vulnerabilities in cloud-native applications.</li>
+                          <li>Worked with AWS and Docker to secure deployment pipelines and containerized workloads.</li>
+                          <li>Implemented best practices for vulnerability scanning and remediation.</li>
+                        </ul>
+                        <div className="timeline-tags">
+                          <span>AWS</span>
+                          <span>Docker</span>
+                          <span>Security</span>
+                          <span>DevOps</span>
+                          <span>Hackathon</span>
+                        </div>
+                      </div>
+                    </div>
           <div className="timeline-item" data-animate>
             <div className="timeline-marker"></div>
             <div className="timeline-content">
@@ -186,97 +209,53 @@ export default function App() {
       <section id="opensource" className="opensource">
         <h2 className="section-title">OPEN SOURCE</h2>
         <h3 className="section-subtitle">Contributing to the <span className="highlight">Community</span></h3>
-        
-        <div className="opensource-grid">
-          <div className="opensource-card featured">
-            <div className="os-badge">Featured Contribution</div>
-            <div className="featured-header">
-              <div>
-                <h4>Developer Conferences Agenda</h4>
-              </div>
-              <a href="https://github.com/gunapriya07/developers-conferences-agenda" target="_blank" className="os-link">View →</a>
-            </div>
-            <p className="os-description">Community platform for discovering developer conferences and CFPs, trusted by 10k+ devs worldwide.</p>
-            
-            <div className="contribution-details">
-              <div className="detail-item">
-                <span className="detail-label">Contribution Focus:</span>
-                <p>Structured and validated conference + CFP metadata for cleaner data</p>
-              </div>
-              <div className="detail-item">
-                <span className="detail-label">Impact & Results:</span>
-                <p>Better accuracy, consistency, and discoverability across the platform</p>
-              </div>
-              <div className="detail-item">
-                <span className="detail-label">Period:</span>
-                <p>2026</p>
-              </div>
-            </div>
-
-            <div className="os-stats">
-              <span>JavaScript</span>
-              <span>Git/GitHub</span>
-              <span>10,000+ Users</span>
-              <span>Global Reach</span>
-            </div>
+        <div className="community-stats">
+          <div className="stat-card">
+            <span className="stat-number">110+</span>
+            <span className="stat-label">Repositories</span>
           </div>
-
-          <div className="opensource-card">
-            <div className="os-header">
-              <h4>Competitive Programming Prep</h4>
-              <a href="https://github.com/gunapriya07/competitive-programming-prep" target="_blank" className="os-link">View →</a>
-            </div>
-            <p className="os-description">Lean DSA prep kit with curated problems and concise solutions for interviews.</p>
-            <div className="os-stats">
-              <span>Java</span>
-              <span>DSA</span>
-              <span>Interview Prep</span>
-            </div>
+          <div className="stat-card">
+            <span className="stat-number">1000+</span>
+            <span className="stat-label">Contributions</span>
           </div>
-
-          <div className="opensource-card">
-            <div className="os-header">
-              <h4>SkillSwap Platform</h4>
-              <a href="https://github.com/gunapriya07/-SkillSwap" target="_blank" className="os-link">View →</a>
-            </div>
-            <p className="os-description">Peer-to-peer skill exchange that helps people teach and learn within their community.</p>
-            <div className="os-stats">
-              <span>HTML/CSS</span>
-              <span>Community</span>
-              <span>Collaboration</span>
-            </div>
+          <div className="stat-card">
+            <span className="stat-number">4</span>
+            <span className="stat-label">Major OSS Projects</span>
           </div>
-
-          <div className="opensource-card">
-            <div className="os-header">
-              <h4>Calculator Using Rust</h4>
-              <a href="https://github.com/gunapriya07/Calculator_using_rust" target="_blank" className="os-link">View →</a>
-            </div>
-            <p className="os-description">Advanced calculator implementation in Rust exploring systems programming and language performance optimization.</p>
-            <div className="os-stats">
-              <span>Rust</span>
-              <span>Systems</span>
-              <span>Performance</span>
-            </div>
+          <div className="stat-card active">
+            <span className="stat-number">Active</span>
+            <span className="stat-label">Community Member</span>
           </div>
         </div>
-
-        <div className="os-contribution-stats">
-          <div className="contribution-stat">
-            <div className="stat-value">110+</div>
-            <div className="stat-name">Repositories</div>
+        <div className="community-cards">
+          <div className="community-card">
+            <div className="card-icon">🎤</div>
+            <h3>Developer Conferences</h3>
+            <p>Speaker & Agenda contributor at major dev events, sharing knowledge and insights.</p>
+            <div className="card-tags">
+              <span>Speaker</span>
+              <span>Mentor</span>
+              <span>Panelist</span>
+            </div>
           </div>
-          <div className="contribution-stat">
-            <div className="stat-value">1000+</div>
-            <div className="stat-name">Contributions</div>
+          <div className="community-card">
+            <div className="card-icon">🛠️</div>
+            <h3>Open Source Projects</h3>
+            <p>Maintainer and contributor to several open source tools and libraries.</p>
+            <div className="card-tags">
+              <span>OSS</span>
+              <span>Maintainer</span>
+              <span>Contributor</span>
+            </div>
           </div>
-          <div className="contribution-stat">
-            <div className="stat-value">4</div>
-            <div className="stat-name">Major OSS Projects</div>
-          </div>
-          <div className="contribution-stat">
-            <div className="stat-value">Active</div>
-            <div className="stat-name">Community Member</div>
+          <div className="community-card">
+            <div className="card-icon">📝</div>
+            <h3>Technical Writing</h3>
+            <p>Published articles and guides to help the dev community grow and learn.</p>
+            <div className="card-tags">
+              <span>Writer</span>
+              <span>Educator</span>
+            </div>
           </div>
         </div>
       </section>
@@ -458,41 +437,33 @@ export default function App() {
       <section id="contact" className="contact">
         <h2 className="section-title">GET IN TOUCH</h2>
         <h3 className="section-subtitle">Let's <span className="highlight">Connect</span></h3>
-        
-        <div className="contact-content">
-          <div className="contact-text">
-            <p>Have a project in mind?</p>
-            <p>I'm always excited to work on new projects and collaborate with creative people. Drop me a message and let's create something amazing together.</p>
+        <div className="connect-card">
+          <div className="connect-intro">
+            <h4>Have a project in mind?</h4>
+            <p>
+              I'm always excited to work on new projects and collaborate with creative people.<br />
+              Reach out via email or connect on social platforms below!
+            </p>
           </div>
-
-          <div className="contact-form">
-            <input type="email" placeholder="Your email" required />
-            <textarea placeholder="Your message" rows="4" required></textarea>
-            <button className="btn btn-primary">Send Message</button>
-          </div>
-
-          <div className="contact-info">
-            <div className="info-item">
-              <span className="icon"></span>
-              <p>gunapriya77776@gmail.com</p>
-            </div>
-            <div className="info-item">
-              <span className="icon"></span>
-              <p>Chittor, Andhra Pradesh</p>
-            </div>
-            <div className="social-links">
-              <a href="https://github.com/gunapriya07" target="_blank">GitHub</a>
-              <a href="https://www.linkedin.com/in/kommara-gunta-guna-priya-924b97297/" target="_blank">LinkedIn</a>
-              <a href="https://leetcode.com/u/GunapriyaReddy/" target="_blank">LeetCode</a>
-            </div>
+          <div className="connect-details">
+            <div className="connect-pill">gunapriya77776@gmail.com</div>
+            <div className="connect-pill">Chittoor, Andhra Pradesh</div>
           </div>
         </div>
       </section>
 
       {/* Footer */}
-      <footer className="footer">
-        <p>&copy; 2026 Guna Priya. All rights reserved.</p>
-        <p>Designed & Built</p>
+      <footer className="footer redesigned-footer">
+        <div className="footer-content">
+          <div className="footer-logo">Guna Priya</div>
+          <div className="footer-social">
+            <a href="https://github.com/gunapriya07" target="_blank" aria-label="GitHub"><i className="fab fa-github"></i> GitHub</a>
+            <a href="https://www.linkedin.com/in/kommara-gunta-guna-priya-924b97297/" target="_blank" aria-label="LinkedIn"><i className="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://leetcode.com/u/GunapriyaReddy/" target="_blank" aria-label="LeetCode"><i className="fas fa-code"></i> LeetCode</a>
+          </div>
+          <div className="footer-copy">&copy; 2026 Guna Priya. All rights reserved.</div>
+          <div className="footer-built">Designed &amp; Built with <span style={{color:'#ffb23f'}}>passion</span></div>
+        </div>
       </footer>
     </div>
   );
