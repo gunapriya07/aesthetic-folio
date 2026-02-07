@@ -38,50 +38,6 @@ aesthetic-folio/
 └── README.md            # This file
 ```
 
-## Getting Started
-
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm or yarn
-
-### Installation
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/gunapriya07/aesthetic-folio.git
-cd aesthetic-folio
-```
-
-2. Install dependencies:
-
-```bash
-npm install
-```
-
-3. Start the development server:
-
-```bash
-npm run dev
-```
-
-4. Open your browser and navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-```
-
-The optimized files will be in the `dist` folder.
-
-### Preview Production Build
-
-```bash
-npm run preview
-```
-
 ## Sections
 
 ### Hero Section
